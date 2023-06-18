@@ -15,13 +15,13 @@ function printScopeExample() {
   }
 
   console.log("my scope is", scope);
-  console.log(inLoopIteration);
+  //console.log(inLoopIteration);
   console.log(inFunction);
   console.log(inGlobal);
 }
 
 printScopeExample();
 console.log("my scope is", scope);
-console.log(inLoopIteration);
-console.log(inFunction);
+//console.log(inLoopIteration);
+//console.log(inFunction);
 console.log(inGlobal);
